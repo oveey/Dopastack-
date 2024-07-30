@@ -1,0 +1,875 @@
+:root {
+  background-color: #ffffff;
+}
+@font-face {
+  font-family: 'Nexa light';
+  src:  url('/src/assets/Nexa/Nexa.ttf') format('truetype'); /* Fallback */
+  font-weight: normal; /* Adjust if necessary */
+  font-style: normal; /* Adjust if necessary */
+}
+
+@font-face {
+  font-family: 'Nexa Bold';
+  src:url('/src/assets/Nexa/Nexa-Heavy.ttf') format('truetype'); /* Modern browsers */
+  font-weight: bold;
+  font-style: normal;
+}
+
+.header__section {
+  background-image: url("https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995204/background_bmhpxw.png");
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+  padding-bottom: 100px;
+}
+.text {
+  font-family: 'Nexa Regular', sans-serif;
+  color: #000;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.text--normal {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Nexa Bold', sans-serif; 
+
+}
+
+.header__text {
+  font-family: 'Nexa Regular', sans-serif; 
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__text__con p {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Nexa Regular', sans-serif; /* Regular font for paragraphs */
+  font-weight: 100;
+}
+.header__text__con {
+  text-align: center;
+  padding: 100px 60px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.btn {
+  /* position: relative; */
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+  font-style: normal;
+  background: #6947d0;
+  text-transform: uppercase;
+  font-family: "Schibsted Grotesk";
+  cursor: pointer;
+  padding: 20px 120px;
+  border: 2px solid rgba(105, 71, 208, 0.5);
+  font-family: "Schibsted Grotesk";
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: rgba(105, 71, 208, 0.5)   -10px 10px;
+}
+
+.btn p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.hero_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.hero_image img {
+  width: 200px;
+}
+
+.recent__section {
+  /* text-align: center; */
+  background: #050000;
+  overflow: hidden; /* Hide the overflowing text */
+  padding-bottom: 100px;
+}
+
+.recent__work {
+  padding-top: 100px;
+  display: flex;
+  overflow: hidden; /* Hide the overflowing text */
+  gap: 30px;
+  white-space: nowrap;
+  overflow-x: auto;
+  animation: scrollText 10s infinite linear;
+  width: 250%;
+  transform: translateX(-50%); /* Center the content */
+  overflow: hidden; /* Hide the overflowing text */
+}
+.recent__work h2 {
+  display: inline-block;
+  color: #fff;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Define keyframes for the scrolling animation */
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.work__img {
+  width: 55%;
+}
+
+.work__img img {
+  width: 100%;
+  box-shadow: rgba(240, 240, 240, 0.146) -13px 20px ;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.work__img img:hover {
+  box-shadow: rgba(240, 240, 240, 0.443) -20px 20px;
+  transform: scale(1.05);
+}
+
+.work__con {
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: rgba(217, 217, 217, 0.8);
+}
+
+.last__b {
+  border: none;
+}
+
+.work__section {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 100px 60px;
+}
+
+.work__con h1 {
+  color: white;
+  font-family: "Schibsted Grotesk";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: 20px;
+}
+.who_under_text {
+  gap: 20px;
+}
+.under_text {
+  display: flex;
+  gap: 10px;
+}
+.under_text p {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(217, 217, 217, 0.19);
+  color: white;
+  padding: 6px 20px;
+  font-family: "Schibsted Grotesk";
+  font-size: 16px;
+  margin-top: 23px;
+}
+
+.btn2 {
+  color: #fff;
+  font-style: normal;
+  background: #151515;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 20px 140px;
+  width: 1000px;
+  border: 1px solid rgba(218, 213, 233, 0.5);
+  font-family: "Schibsted Grotesk";
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: rgba(196, 196, 196, 0.412) -5px 7px;
+
+  text-align: center;
+  font-family: "Schibsted Grotesk";
+}
+.btn2 p {
+  font-size: 14.519px;
+  font-family: "Schibsted Grotesk";
+}
+.btn2:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(240, 240, 240, 0.831) -20px 10px;
+}
+
+.btn-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*********************************** OFFER SECTION *****************************************************/
+
+.offer__section {
+  padding: 100px 60px;
+}
+
+.offer__header {
+  display: flex;
+  gap: 40px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.last__border {
+  border-bottom: none;
+}
+
+.offer__title {
+  width: 52%;
+  font-size: 27px;
+  font-family: 'Nexa Regular', sans-serif;
+
+}
+
+.p {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Schibsted Grotesk";
+}
+.n__one {
+  display: flex; /* Use flexbox for alignment */
+  align-items: flex-start; /* Align items at the start (top alignment) */
+  
+}
+.p__one {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.55);
+  font-family: "Schibsted Grotesk";
+  line-height: 150%; /* 54px */
+  
+}
+
+
+.P__two {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.55);
+  font-family: "Schibsted Grotesk";
+  line-height: 150%; /* 54px */
+}
+
+.offer__con {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 40px;
+}
+h3{
+  font-size: 23px;
+  font-family: "Schibsted Grotesk";
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 2  q                                 00;
+
+
+  
+}
+.number {
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 60%;
+  align-items: center;
+  width: 220px; /* Fixed width of the circle */
+  height: 60px; /* Fixed height of the circle */
+  border: 2px solid rgba(0, 0, 0, 0.55);
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-right: 26px; /* Space between the number and the text */
+  font-family: "Schibsted Grotesk";
+  font-weight: 400;
+
+
+
+}
+
+
+.who_link p {
+  color: var(--Gulf-Blue-950, #001a52);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 0;
+  margin-top: 10px;
+  font-family: "Schibsted Grotesk";
+}
+
+.what__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  align-items: flex-start;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.faq-item .question {
+  display: flex;
+  text-align: left;
+  max-width: 100%;
+  font-family: "Schibsted Grotesk";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 559;
+  line-height: 140%; /* 50.4px */
+}
+
+.questions {
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 25px;
+  gap: 60px;
+  font-family: "Schibsted Grotesk";
+  font-style: normal;
+  font-weight: 559;
+  line-height: 140%;
+}
+
+.question svg {
+  color: #606060;
+}
+
+.answers {
+  text-align: left;
+  font-family: "Schibsted Grotesk";
+  font-size: 18px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 30px 0;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+/************************* Styling for individual FAQ items ************************************/
+
+.summary__section {
+  background-color: #6947d0;
+  padding: 100px 60px;
+}
+.summary__text {
+  padding: 100px 0;
+}
+.summary__text p {
+  color: #fff;
+  font-family: "Schibsted Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #fff;
+  font-size: 38px;                                                            
+  height: 300px;
+}
+      
+.recent__work h2 {
+  display: inline-block;
+  color: #fff;
+  font-family: "Schibsted Grotesk";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: -3.342px; */
+}
+
+.getintouch {
+  padding: 60px 60px;
+  overflow: hidden; /* Hide the overflowing text */
+  position: relative; /* For absolute positioning of the scrolling content */
+}
+
+.get-in-touch-item img {
+  width: 90px;
+}
+
+.get-in-touch-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  animation: scrollText 5s infinite linear;
+  transform: translateX(-50%); /* Center the content */
+  white-space: nowrap;
+}
+
+.get-in-touch-item span {
+  font-size: 50px;
+  color: #333;
+  font-weight: 600;
+}
+
+.getintouch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  border: 2.777px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  padding: 30px;
+  overflow-x: auto;
+  overflow: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Optional: Hide scrollbar while allowing scrolling */
+.getintouch-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+@media (max-width: 999px) {
+  .header__text {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .text--normal {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+
+  .header__text__con p {
+    font-size: 20px;
+  }
+
+  .header__text__con {
+    padding: 100px 40px;
+  }
+  .hero_image img {
+    width: 200px;
+  }
+
+  .recent__work h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .work__section {
+    padding: 50px 20px;
+  }
+
+  .work__con {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .offer__section {
+    padding: 50px 20px;
+  }
+
+  .offer__header {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .what__header {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .offer__title {
+    /* font-size: 30px; */
+    width: 100%;
+  }
+  .p__one {
+    font-size: 20px;
+  }
+
+  .p {
+    font-size: 20px;
+  }
+
+  .P__two {
+    font-size: 20px;
+  }
+
+  .offer__con {
+    width: 100%;
+  }
+
+  /* .what-item{
+    padding: 10px;
+  } */
+  .questions {
+    font-size: 18px;
+    gap: 160px;
+  }
+  .summary__section {
+    padding: 50px 20px;
+  }
+  .summary__text {
+    padding: 30px 0;
+  }
+  .summary__text p {
+    font-size: 28px;
+    line-height: 124%;
+    /* height: 600px; */
+  }
+  .get-in-touch-item span {
+    font-size: 28px;
+  }
+  .get-in-touch-item img {
+    width: 30px;
+  }
+  .work__img {
+    width: 100%;
+  }
+
+  .work__img img {
+    width: 100%;
+  }
+
+  .btn {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    background: #6947d0;
+    padding: 20px 80px;
+  }
+
+  .btn p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .getintouch-container {
+    gap: 30px;
+  }
+
+  .work__con {
+    padding-bottom: 50px;
+  }
+  .faq-section {
+    padding: 50px 30px;
+  }
+  .btn2 {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__text {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .text--normal {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+
+  .header__text__con p {
+    font-size: 20px;
+  }
+
+  .header__text__con {
+    padding: 100px 40px;
+  }
+  .hero_image img {
+    width: 200px;
+  }
+
+  .recent__work h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .work__section {
+    padding: 50px 20px;
+  }
+
+  .work__con {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .offer__section {
+    padding: 50px 20px;
+  }
+
+  .offer__header {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .what__header {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .offer__title {
+    /* font-size: 30px; */
+    width: 100%;
+  }
+  .p__one {
+    font-size: 16px;
+  }
+
+  .p {
+    font-size: 16px;
+  }
+
+  .P__two {
+    font-size: 16px;
+  }
+
+  /* .what-item{
+    padding: 10px;
+  } */
+
+  .faq-item .question {
+    font-size: 18px;
+  }
+
+  .faq-item .answer {
+    font-size: 18px;
+  }
+
+  .questions {
+    font-size: 18px;
+    padding: 10px;
+    gap: 30px;
+  }
+  .summary__section {
+    padding: 50px 20px;
+  }
+  .summary__text {
+    padding: 30px 0;
+  }
+  .summary__text p {
+    font-size: 28px;
+    line-height: 124%;
+    /* height: 600px; */
+  }
+  .get-in-touch-item span {
+    font-size: 28px;
+  }
+  .get-in-touch-item img {
+    width: 30px;
+  }
+  .work__img {
+    width: 100%;
+  }
+
+  .work__img img {
+    width: 100%;
+  }
+
+  .btn {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    background: #6947d0;
+    padding: 20px 80px;
+  }
+
+  .btn2 p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .btn2 {
+    width: 600px;
+  }
+
+  .getintouch-container {
+    gap: 30px;
+  }
+
+  .work__con {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__text {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .text--normal {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+
+  .header__text__con p {
+    font-size: 20px;
+  }
+
+  .header__text__con {
+    padding: 100px 40px;
+  }
+  .hero_image img {
+    width: 200px;
+  }
+
+  .recent__work h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .work__section {
+    padding: 50px 20px;
+  }
+
+  .work__con {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .offer__section {
+    padding: 50px 20px;
+  }
+
+  .offer__header {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .what__header {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .offer__title {
+    /* font-size: 30px; */
+    width: 100%;
+  }
+  .p__one {
+    font-size: 16px;
+  }
+
+  .p {
+    font-size: 16px;
+  }
+
+  .P__two {
+    font-size: 16px;
+  }
+
+  .questions {
+    font-size: 18px;
+    padding: 10px;
+    gap: 30px;
+  }
+  .summary__section {
+    padding: 50px 20px;
+  }
+  .summary__text {
+    padding: 30px 0;
+  }
+  .summary__text p {
+    font-size: 28px;
+    line-height: 124%;
+    height: 600px;
+  }
+  .get-in-touch-item span {
+    font-size: 28px;
+  }
+  .get-in-touch-item img {
+    width: 30px;
+  }
+  .work__img {
+    width: 100%;
+  }
+
+  .work__img img {
+    width: 100%;
+  }
+
+  .btn {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    background: #6947d0;
+    padding: 20px 80px;
+  }
+
+  .btn p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .getintouch {
+    padding: 60px 10px;
+  }
+  .getintouch-container {
+    gap: 30px;
+  }
+
+  .work__con {
+    padding-bottom: 50px;
+  }
+
+  .btn2 {
+    padding: 30px 0;
+    width: 300px;
+  }
+
+  .offer__title {
+    font-size: 20px;
+  
+  }
+  h3{
+    font-size: 18px;
+  }
+
+  .number{
+    width: 200px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,147 @@
+/* faq.css */
+
+/* Styling for the FAQ section */
+.faq-section {
+    /* text-align: center; */
+    background: #040000;
+    color:#fff;
+    padding: 100px 60px;
+}
+  
+.faq {
+    margin-bottom: 80px;
+    display: flex;
+}
+  
+.faq h1 {
+    font-size: 38px;
+    font-family: "Schibsted Grotesk";
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 724;
+    color: #6947D0;
+
+
+}
+  
+.faq p {
+    color: #5C5C5C;
+    text-align: center;
+    font-family: "Schibsted Grotesk";
+    padding: 1rem 5rem;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 673;
+    line-height: 146%;
+}
+  
+/* Styling for individual FAQ items */
+.faq-item {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #838383;    
+    cursor: pointer;
+    padding: 30px 0;
+}
+  
+.faq-item .question {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    max-width: 100%;
+    font-family: "Schibsted Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 559;
+    line-height: 140%; /* 50.4px */
+}
+
+  
+.faq-item .answer {
+    font-family: "Schibsted Grotesk";
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.80);
+    margin-top: 40px;
+    line-height: 124.061%; /* 62.03px */
+}
+  
+
+@media screen and (max-width: 1050px) {
+    .faq h1{
+        font-size: 40px;
+      
+    }
+    .faq p{
+        padding: 1rem 0;
+        font-size: 14px;
+     
+    }
+    .faq-item .question {
+        font-size: 25px;
+     
+    }
+    .summary__text p{
+        height: 500px;
+
+    }
+      
+    .faq-item .answer {
+
+        font-size: 16px;
+    
+    }
+    .faq-section{
+        padding: 100px 60px;
+    
+    }
+    .faq h1 {
+        font-size: 28px;
+        
+    
+    
+    }
+
+    .faq {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .faq h1{
+        font-size: 40px;
+      
+    }
+    .faq p{
+        padding: 1rem 0;
+        font-size: 14px;
+     
+    }
+    .faq-item .question {
+        font-size: 18px;
+     
+    }
+      
+    .faq-item .answer {
+
+        font-size: 16px;
+    
+    }
+    .faq-section{
+        padding: 50px 20px;
+    
+    }
+    .faq h1 {
+        font-size: 28px;
+        
+    
+    
+    }
+
+    .faq {
+        margin-bottom: 30px;
+    }
+
+}

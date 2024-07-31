@@ -49,9 +49,11 @@
 }
 .header__text__con p {
   text-align: center;
-  font-size: 35px;
-  font-family: "Nexa Regular", sans-serif; /* Regular font for paragraphs */
+  font-size: 40px;
+  font-family: "Nexa Regular", sans-serif;
   font-weight: 100;
+  font-style: normal;
+
 }
 .header__text__con {
   text-align: center;
@@ -67,7 +69,7 @@
 
 .btn {
   /* position: relative; */
-  margin-top: 30px;
+  margin-top: 60px;
   text-align: center;
   color: #fff;
   font-style: normal;
@@ -825,8 +827,8 @@ h3 {
   }
 
   .btn {
-    margin-top: 30px;
-    padding: 6px 25px;
+    margin-top: 60px;
+    padding: 6px 65px;
   }
 
   .btn p {

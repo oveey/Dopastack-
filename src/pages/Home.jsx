@@ -137,7 +137,7 @@ export const Home = () => {
       <section className="header__section" id="home">
         <div className="header__inner__con">
           <Nav />
-          <div className="header__text__con" data-aos="fade-up">
+          <div className="header__text__con" data-aos="fade-up" data-aos-duration="3000">
             <h1 className="header__text">BRIDGING THE GAP</h1>
             <p>BETWEEN BUSINESS PROBLEMS</p>
             <span className="text">
@@ -498,9 +498,7 @@ export const Home = () => {
               <div className="n__one">
                 <span className="number">02</span>
                 <h3>
-                  Proven Expertise. With a team of experienced tech
-                  professionals and a robust client network, Dopastack is
-                  equipped to deliver high-quality, reliable tech solutions.
+                Scalable Model. Our business model is scalable, allowing for growth and expansion into new markets and service areas.
                 </h3>
               </div>
 

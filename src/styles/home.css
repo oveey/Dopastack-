@@ -272,8 +272,8 @@
   font-family: "Schibsted Grotesk";
 }
 .n__one {
-  display: flex; /* Use flexbox for alignment */
-  align-items: flex-start; /* Align items at the start (top alignment) */
+  display: flex; 
+  align-items: flex-start;
 }
 .p__one {
   font-size: 20px;
@@ -303,22 +303,24 @@ h2{
   font-family: "Schibsted Grotesk";
 
 }
+
 h3 {
   font-size: 23px;
   font-family: "Schibsted Grotesk";
   color: rgba(0, 0, 0, 0.55);
   font-weight: 200;
+  width: 300%;
 }
 .number {
   display: inline-flex;
   justify-content: center;
   border-radius: calc(0.8 * 10vw); /* Responsive border radius */
   align-items: center;
-  width: 200px; /* Fixed width of the circle */
-  height: 60px; /* Fixed height of the circle */
+  width: 200px; 
+  height: 60px; 
   border: 2px solid rgba(0, 0, 0, 0.55);
-  font-size: 18px; /* Adjust the font size as needed */
-  margin-right: 26px; /* Space between the number and the text */
+  font-size: 18px; 
+  margin-right: 26px; 
   font-family: "Schibsted Grotesk";
   font-weight: 400;
 }

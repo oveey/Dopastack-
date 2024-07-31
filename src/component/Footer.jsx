@@ -58,7 +58,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.twitter.com"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -68,7 +68,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com/xtremedimension/"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -102,7 +102,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com/xtremedimension/"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -113,7 +113,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/xtremedimension/"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -124,7 +124,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/xtremedimension/"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

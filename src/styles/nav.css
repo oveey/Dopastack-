@@ -15,7 +15,10 @@
   width: 100%;
   padding: 20px 40px;
   z-index: 1000;
+  background: rgba(255, 255, 255, 0.232); /* White background with some transparency */
   border-bottom: 2px solid rgba(215, 215, 215, 0.467);
+  backdrop-filter: blur(10px); /* Apply blur effect to the background */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
 }
 
 .home__nav ul {

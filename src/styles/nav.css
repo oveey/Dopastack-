@@ -180,7 +180,7 @@
     right: 0; /* Aligns the menu to the right edge */
     overflow: hidden; /* Allows scrolling if content overflows */
     flex-direction: column;
-    transition: transform 0.3s ease; /* Smooth transition effect */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for both transform and opacity */
     z-index: 2000;
   }
 

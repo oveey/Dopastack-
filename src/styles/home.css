@@ -288,7 +288,7 @@
   font-weight: 700;
   color: rgba(0, 0, 0, 0.55);
   font-family: "Schibsted Grotesk";
-  line-height: 150%; /* 54px */
+  line-height: 170%; /* 54px */
 }
 
 .offer__con {
@@ -433,6 +433,7 @@ h3 {
 
 .get-in-touch-item span {
   font-size: 50px;
+  font-family: "Schibsted Grotesk";
   color: #333;
   font-weight: 600;
 }
@@ -801,6 +802,11 @@ h3 {
     font-size: 18px;
     padding: 10px;
     gap: 30px;
+  }
+  .answers{
+    font-size: 18px;
+
+
   }
   .summary__section {
     padding: 90px 20px;

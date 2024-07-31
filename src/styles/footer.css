@@ -18,7 +18,7 @@
 }
 
 .footer__logo p {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@
   font-weight: 500;
 }
 .email__link {
-  font-size: 30px;
+  font-size: 26px;
   text-decoration: none;
   color: white; /* Inherit text color */
 }

@@ -295,6 +295,10 @@
   width: 60%;
   gap: 40px;
 }
+h2{
+  font-family: "Schibsted Grotesk";
+
+}
 h3 {
   font-size: 23px;
   font-family: "Schibsted Grotesk";
@@ -304,7 +308,7 @@ h3 {
 .number {
   display: inline-flex;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: calc(0.8 * 10vw); /* Responsive border radius */
   align-items: center;
   width: 200px; /* Fixed width of the circle */
   height: 60px; /* Fixed height of the circle */
@@ -581,6 +585,10 @@ h3 {
   .btn2 {
     width: 700px;
   }
+  .number {
+    width: 100px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -851,6 +859,6 @@ h3 {
 
   .number {
     width: 200px;
-    height: 50px;
+    height: 40px;
   }
 }

@@ -2,15 +2,15 @@
   background-color: #ffffff;
 }
 @font-face {
-  font-family: 'Nexa light';
-  src:  url('/src/assets/Nexa/Nexa.ttf') format('truetype'); /* Fallback */
+  font-family: "Nexa light";
+  src: url("/src/assets/Nexa/Nexa.ttf") format("truetype"); /* Fallback */
   font-weight: normal; /* Adjust if necessary */
   font-style: normal; /* Adjust if necessary */
 }
 
 @font-face {
-  font-family: 'Nexa Bold';
-  src:url('/src/assets/Nexa/Nexa-Heavy.ttf') format('truetype'); /* Modern browsers */
+  font-family: "Nexa Bold";
+  src: url("/src/assets/Nexa/Nexa-Heavy.ttf") format("truetype"); /* Modern browsers */
   font-weight: bold;
   font-style: normal;
 }
@@ -23,7 +23,7 @@
   padding-bottom: 100px;
 }
 .text {
-  font-family: 'Nexa Regular', sans-serif;
+  font-family: "Nexa Regular", sans-serif;
   color: #000;
   font-size: 35px;
   font-style: normal;
@@ -36,12 +36,11 @@
 .text--normal {
   font-weight: bold;
   font-size: 35px;
-  font-family: 'Nexa Bold', sans-serif; 
-
+  font-family: "Nexa Bold", sans-serif;
 }
 
 .header__text {
-  font-family: 'Nexa Regular', sans-serif; 
+  font-family: "Nexa Regular", sans-serif;
   font-size: 85px;
   font-style: normal;
   font-weight: 100;
@@ -51,7 +50,7 @@
 .header__text__con p {
   text-align: center;
   font-size: 35px;
-  font-family: 'Nexa Regular', sans-serif; /* Regular font for paragraphs */
+  font-family: "Nexa Regular", sans-serif; /* Regular font for paragraphs */
   font-weight: 100;
 }
 .header__text__con {
@@ -81,7 +80,7 @@
   font-family: "Schibsted Grotesk";
   transition: background-color 0.3s ease, transform 0.3s ease,
     box-shadow 0.3s ease;
-  box-shadow: rgba(105, 71, 208, 0.5)   -10px 10px;
+  box-shadow: rgba(105, 71, 208, 0.5) -10px 10px;
 }
 
 .btn p {
@@ -147,7 +146,7 @@
 
 .work__img img {
   width: 100%;
-  box-shadow: rgba(240, 240, 240, 0.146) -13px 20px ;
+  box-shadow: rgba(240, 240, 240, 0.146) -13px 20px;
   transition: background-color 0.3s ease, transform 0.3s ease,
     box-shadow 0.3s ease;
   cursor: pointer;
@@ -258,13 +257,12 @@
 .offer__title {
   width: 52%;
   font-size: 27px;
-  font-family: 'Nexa Regular', sans-serif;
-
+  font-family: "Schibsted Grotesk";
 }
 
 .p {
   color: rgb(0, 0, 0);
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   font-family: "Schibsted Grotesk";
@@ -272,7 +270,6 @@
 .n__one {
   display: flex; /* Use flexbox for alignment */
   align-items: flex-start; /* Align items at the start (top alignment) */
-  
 }
 .p__one {
   font-size: 20px;
@@ -281,9 +278,7 @@
   color: rgba(0, 0, 0, 0.55);
   font-family: "Schibsted Grotesk";
   line-height: 150%; /* 54px */
-  
 }
-
 
 .P__two {
   font-size: 20px;
@@ -300,32 +295,25 @@
   width: 60%;
   gap: 40px;
 }
-h3{
+h3 {
   font-size: 23px;
   font-family: "Schibsted Grotesk";
   color: rgba(0, 0, 0, 0.55);
-  font-weight: 2  q                                 00;
-
-
-  
+  font-weight: 200;
 }
 .number {
   display: inline-flex;
   justify-content: center;
-  border-radius: 60%;
+  border-radius: 50%;
   align-items: center;
-  width: 220px; /* Fixed width of the circle */
+  width: 200px; /* Fixed width of the circle */
   height: 60px; /* Fixed height of the circle */
   border: 2px solid rgba(0, 0, 0, 0.55);
   font-size: 18px; /* Adjust the font size as needed */
   margin-right: 26px; /* Space between the number and the text */
   font-family: "Schibsted Grotesk";
   font-weight: 400;
-
-
-
 }
-
 
 .who_link p {
   color: var(--Gulf-Blue-950, #001a52);
@@ -404,10 +392,9 @@ h3{
   font-weight: 400;
   line-height: 120%;
   color: #fff;
-  font-size: 38px;                                                            
-  height: 300px;
+  font-size: 38px;
 }
-      
+
 .recent__work h2 {
   display: inline-block;
   color: #fff;
@@ -532,7 +519,7 @@ h3{
   }
 
   .offer__con {
-    width: 100%;
+    width: 90%;
   }
 
   /* .what-item{
@@ -657,7 +644,7 @@ h3{
   }
 
   .p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .P__two {
@@ -690,7 +677,6 @@ h3{
   .summary__text p {
     font-size: 28px;
     line-height: 124%;
-    /* height: 600px; */
   }
   .get-in-touch-item span {
     font-size: 28px;
@@ -747,6 +733,7 @@ h3{
 
   .header__text__con p {
     font-size: 20px;
+    margin: 12px 30px;
   }
 
   .header__text__con {
@@ -793,7 +780,7 @@ h3{
   }
 
   .p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .P__two {
@@ -806,21 +793,20 @@ h3{
     gap: 30px;
   }
   .summary__section {
-    padding: 50px 20px;
+    padding: 90px 20px;
   }
   .summary__text {
     padding: 30px 0;
   }
   .summary__text p {
-    font-size: 28px;
+    font-size: 23px;
     line-height: 124%;
-    height: 600px;
   }
   .get-in-touch-item span {
     font-size: 28px;
   }
   .get-in-touch-item img {
-    width: 30px;
+    width: 50px;
   }
   .work__img {
     width: 100%;
@@ -832,11 +818,7 @@ h3{
 
   .btn {
     margin-top: 30px;
-    text-align: center;
-    color: #fff;
-    font-style: normal;
-    background: #6947d0;
-    padding: 20px 80px;
+    padding: 6px 25px;
   }
 
   .btn p {
@@ -848,7 +830,7 @@ h3{
     padding: 60px 10px;
   }
   .getintouch-container {
-    gap: 30px;
+    gap: 20px;
   }
 
   .work__con {
@@ -862,13 +844,12 @@ h3{
 
   .offer__title {
     font-size: 20px;
-  
   }
-  h3{
+  h3 {
     font-size: 18px;
   }
 
-  .number{
+  .number {
     width: 200px;
     height: 50px;
   }

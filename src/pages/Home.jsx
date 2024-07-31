@@ -24,7 +24,7 @@ export const Home = () => {
     {
       question: "What industries does Dopastack specialize in ?",
       answer:
-        "You can get involved by joining our community and participating in events.",
+        "At Dopastack, we serve a wide range of industries including finance, healthcare, retail, education, and more. Our team has the expertise to tailor solutions to the specific needs of any industry.",
     },
     {
       question:
@@ -314,8 +314,8 @@ export const Home = () => {
 
             <div className="offer__con" data-aos="fade-up">
               <h2>Expert Tech Solutions:</h2>
-              <span className="p__one">
-                Tailored Services
+              <span className="p">
+                Tailored Services:
                 <span className="P__two">
                   {" "}
                   Dopastack employs the right professionals for each job,
@@ -324,7 +324,7 @@ export const Home = () => {
                 </span>
               </span>
 
-              <span className="p__one">
+              <span className="p">
                 Comprehensive Maintenance:
                 <span className="P__two">
                   {" "}
@@ -333,7 +333,7 @@ export const Home = () => {
                 </span>
               </span>
 
-              <span className="p__one">
+              <span className="p">
                 Talent Matching:
                 <span className="P__two">
                   {" "}
@@ -343,6 +343,17 @@ export const Home = () => {
                   process.
                 </span>
               </span>
+
+              {/* <span className="p__one">
+                Talent Matching:
+                <span className="P__two">
+                  {" "}
+                  Whether you need a temporary consultant or a full-time
+                  employee, Dopastack provides suitable candidates to fill your
+                  job openings, saving you time and resources in the hiring
+                  process.
+                </span>
+              </span> */}
             </div>
           </div>
 
@@ -357,33 +368,22 @@ export const Home = () => {
 
             <div className="offer__con last__border" data-aos="fade-up">
               <h2>Enhanced Efficacy</h2>
-              <span className="p__one">
-                Tailored Services:
+
+              <span className="p">
+                On-Demand Support:
                 <span className="P__two">
                   {" "}
-                  Dopastack employs the right professionals for each job,
-                  ensuring that clients receive precise and effective solutions
-                  for their tech problems.
+                  Our team is always ready to address any tech issues, providing
+                  prompt and reliable support whenever needed.
                 </span>
               </span>
 
-              <span className="p__one">
-                Comprehensive Maintenance:
+              <span className="p">
+                Customized Solutions:
                 <span className="P__two">
                   {" "}
-                  We offer ongoing maintenance services to keep your systems
-                  running smoothly and efficiently.
-                </span>
-              </span>
-
-              <span className="p__one">
-                Talent Matching:
-                <span className="P__two">
-                  {" "}
-                  Whether you need a temporary consultant or a full-time
-                  employee, Dopastack provides suitable candidates to fill your
-                  job openings, saving you time and resources in the hiring
-                  process.
+                  We understand that each client has unique needs, and we tailor
+                  our services to meet those specific requirements.
                 </span>
               </span>
             </div>
@@ -523,7 +523,7 @@ export const Home = () => {
               <div className="n__one">
                 <span className="number">02</span>
                 <h3>
-                Proven Expertise. With a team of experienced tech
+                  Proven Expertise. With a team of experienced tech
                   professionals and a robust client network, Dopastack is
                   equipped to deliver high-quality, reliable tech solutions.
                 </h3>
@@ -545,17 +545,12 @@ export const Home = () => {
       <section className="summary__section">
         <div className="summary__text">
           <p>
-            <Typewriter
-              words={[
-                "Dopastack is not just a service provider; it’s a bridge that connects the tech world, facilitating seamless interactions between clients and professionals. By investing in Dopastack, you are supporting a company that is dedicated to innovation, efficiency, and excellence in the tech industry. Join us in transforming the way tech solutions are delivered and experienced.",
-              ]}
-              loop={20}
-              cursor
-              cursorStyle="_"
-              typeSpeed={20}
-              deleteSpeed={10}
-              delaySpeed={1000}
-            />
+            DOPASTACK is not just a service provider; it’s a bridge that
+            connects the tech world, facilitating seamless interactions between
+            clients and professionals. By investing in Dopastack, you are
+            supporting a company that is dedicated to innovation, efficiency,
+            and excellence in the tech industry. Join us in transforming the way
+            tech solutions are delivered and experienced.
           </p>
         </div>
       </section>

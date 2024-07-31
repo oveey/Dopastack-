@@ -82,18 +82,14 @@
         font-size: 25px;
      
     }
-    .summary__text p{
-        height: 500px;
-
-    }
-      
+  
     .faq-item .answer {
 
         font-size: 16px;
     
     }
     .faq-section{
-        padding: 100px 60px;
+        padding: 50px 20px;
     
     }
     .faq h1 {

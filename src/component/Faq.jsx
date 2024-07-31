@@ -14,7 +14,7 @@ const Faq = () => {
     {
       question: "Custom Software Development?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "We design and develop custom software solutions tailored to your specific business needs. From initial concept to final deployment, our team ensures that your software is scalable, secure, and efficient.",
     },
     {
       question: "Business Branding?",

@@ -13,6 +13,7 @@
 .contact__header h1 {
   font-size: 46px;
   font-family: "Schibsted Grotesk";
+  margin-bottom: 50px;
 
 }
 
@@ -71,6 +72,10 @@
 }
 
 @media (max-width: 900px) {
+
+  .contact{
+    padding: 50px 20px;
+  }
   .form__container {
     flex-direction: column;
   }

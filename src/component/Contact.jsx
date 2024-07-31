@@ -53,7 +53,7 @@ export const Contact = () => {
 
   return (
     <>
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="contact__section">
           <div className="contact__header" data-aos="fade-up">
             <h1>Ping us a message</h1>

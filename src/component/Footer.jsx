@@ -2,9 +2,10 @@ import React, { useEffect } from "react";
 import "../styles/footer.css";
 import { Link } from "react-router-dom";
 import AOS from "aos";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRight } from "@fortawesome/free-regular-svg-icons"; // Import the specific icon
+import { faArrowUpRight } from "@fortawesome/free-regular-svg-icons";
 
 export const Footer = () => {
   useEffect(() => {
@@ -33,7 +34,7 @@ export const Footer = () => {
 
   return (
     <>
-      <section className="footer__section">
+      <section className="footer__section" id="faq">
         <div className="footer">
           <div className="footer__content">
             <div className="footer__logo" data-aos="fade-up">
@@ -137,9 +138,15 @@ export const Footer = () => {
           </div>
         </div>
       </section>
-      <div className="footer__section2">
+      <div className="footer__section2" id="home">
         <div className="footer__two">
-          <p>Back to Top</p>
+          <p>
+            <ScrollLink
+              to="home"
+              smooth={true}
+              duration={500}
+            >Back to Top</ScrollLink>
+          </p>
         </div>
       </div>
     </>

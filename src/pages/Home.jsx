@@ -8,10 +8,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import axios from "axios";
 import "../styles/faq.css";
-import Faq from "../component/Faq"; // Adjust the path if necessary
+import Faq from "../component/Faq"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
-import { Typewriter } from "react-simple-typewriter";
 
 export const Home = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -52,14 +51,8 @@ export const Home = () => {
     },
   ];
 
-  const [showPopup, setShowPopup] = useState(false);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [address, setAddress] = useState("");
-  const [datetime, setDatetime] = useState("");
-  const [consultationType, setConsultationType] = useState("");
-  const [document, setDocument] = useState(null);
   const [message, setMessage] = useState("");
 
   const handleSubmit = async (e) => {
@@ -75,10 +68,6 @@ export const Home = () => {
     formData.append("user_id", publicKey);
     formData.append("template_params[from_name]", `${firstName} ${lastName}`);
     formData.append("template_params[to_name]", "ovgraphic1@gmail.com");
-    formData.append("template_params[phone_number]", phoneNumber);
-    formData.append("template_params[address]", address);
-    formData.append("template_params[datetime]", datetime);
-    formData.append("template_params[consultation_type]", consultationType);
     formData.append("template_params[message]", message);
 
     if (document) {
@@ -98,30 +87,16 @@ export const Home = () => {
       console.log(res.data);
       setFirstName("");
       setLastName("");
-      setPhoneNumber("");
-      setAddress("");
-      setDatetime("");
-      setConsultationType("");
-      setDocument(null);
       setMessage("");
     } catch (error) {
       console.error(error);
     }
 
-    closePopup();
   };
 
-  const handleFileChange = (e) => {
-    setDocument(e.target.files[0]);
-  };
+ 
 
-  const openPopup = () => {
-    setShowPopup(true);
-  };
-
-  const closePopup = () => {
-    setShowPopup(false);
-  };
+ 
 
   const formRef = useRef(null);
 
@@ -159,7 +134,7 @@ export const Home = () => {
 
   return (
     <>
-      <section className="header__section">
+      <section className="header__section" id="home">
         <div className="header__inner__con">
           <Nav />
           <div className="header__text__con" data-aos="fade-up">
@@ -188,7 +163,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="recent__section">
+      <section className="recent__section"id="projects">
         <div className="recent__work">
           <h2>RECENT WORKS </h2>
           <h2>•</h2>
@@ -276,7 +251,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="offer__section">
+      <section className="offer__section" id="about-us">
         <div className="offer__inner__con">
           <div className="offer__header">
             <div
@@ -470,7 +445,7 @@ export const Home = () => {
 
       <Faq />
 
-      <section className="offer__section">
+      <section className="offer__section" id="service">
         <div className="offer__inner__con">
           <div className="what__header">
             <div

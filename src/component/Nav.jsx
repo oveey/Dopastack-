@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom"; 
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll"; 
 import "../styles/nav.css";
 
 export const Nav = () => {
@@ -38,44 +39,73 @@ export const Nav = () => {
   return (
     <>
       <div className="home__nav">
-        <Link to="/">
+        <RouterLink to="/">
           <img
             src="https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995203/Dopastack_logo_jw4qjy.png"
-            alt="Dopastack Logo"
+            alt=""
           />
-        </Link>
+        </RouterLink>
 
         <ul className={`${isOpen ? "open" : ""}`}>
           <li>
-            <NavLink to="/" className="nav_link">
+            <ScrollLink
+              to="about-us"
+              smooth={true}
+              duration={500}
+              onClick={toggleMenu}
+              className="nav_link"
+            >
               ABOUT US
-            </NavLink>
+            </ScrollLink>
           </li>
           <li>
-            <NavLink to="/" className="nav_link">
+            <ScrollLink
+              to="projects"
+              smooth={true}
+              duration={500}
+              onClick={toggleMenu}
+              className="nav_link"
+            >
               PROJECTS
-            </NavLink>
+            </ScrollLink>
           </li>
           <li>
-            <NavLink to="/" className="nav_link">
+            <ScrollLink
+              to="service"
+              smooth={true}
+              duration={500}
+              onClick={toggleMenu}
+              className="nav_link"
+            >
               SERVICES
-            </NavLink>
+            </ScrollLink>
           </li>
           <li>
-            <NavLink to="/" className="nav_link">
+            <ScrollLink
+              to="faq"
+              smooth={true}
+              duration={500}
+              onClick={toggleMenu}
+              className="nav_link"
+            >
               FAQ
-            </NavLink>
+            </ScrollLink>
           </li>
           <li>
-            <NavLink to="/" className="nav_link">
+            <ScrollLink
+              to="contact"
+              smooth={true}
+              duration={500}
+              onClick={toggleMenu}
+              className="nav_link"
+            >
               CONTACT US
-            </NavLink>
+            </ScrollLink>
           </li>
 
           <div className="dropdown">
             <span className="colors"></span>
           </div>
-          
         </ul>
 
         <button

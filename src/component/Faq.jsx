@@ -54,22 +54,21 @@ const Faq = () => {
         "You can get involved by joining our community and participating in events.",
     },
     {
-        question: "E-commerce Solution?",
-        answer:
-          "You can get involved by joining our community and participating in events.",
-      },
+      question: "E-commerce Solution?",
+      answer:
+        "You can get involved by joining our community and participating in events.",
+    },
 
-      {
-        question: "Product Design?",
-        answer:
-          "You can get involved by joining our community and participating in events.",
-      },
-    // Add more FAQ data as needed
+    {
+      question: "Product Design?",
+      answer:
+        "You can get involved by joining our community and participating in events.",
+    },
   ];
 
   return (
     <div className="faq-section" id="faq">
-      <div className="faq"data-aos="fade-up">
+      <div className="faq" data-aos="fade-up">
         <h1>Our Service Include</h1>
       </div>
 

@@ -356,6 +356,8 @@ h3 {
 
 .questions {
   display: flex;
+  width: 100%;
+  max-width: 900px;
   padding: 30px 0;
   justify-content: space-between;
   text-align: left;
@@ -379,6 +381,8 @@ h3 {
   color: rgba(0, 0, 0, 0.55);
   font-size: 25px;
   font-style: normal;
+  width: 100%;
+  max-width: 900px;
   font-weight: 400;
   padding: 30px 0;
   border-bottom: 2px solid #d9d9d9;
@@ -387,12 +391,14 @@ h3 {
 /************************* Styling for individual FAQ items ************************************/
 
 .summary__section {
-  background-color: #6947d0;
   padding: 100px 60px;
+  background: #6947D0;
 }
+
 .summary__text {
   padding: 100px 0;
 }
+
 .summary__text p {
   color: #fff;
   font-family: "Schibsted Grotesk";
@@ -728,6 +734,11 @@ h3 {
 
   .work__con {
     padding-bottom: 50px;
+  }
+
+  .answers {
+    padding: 30px 10px;
+    
   }
 }
 

@@ -18,7 +18,8 @@
 }
 
 .footer__logo p {
-  font-size: 20px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 25px;
   margin-bottom: 10px;
 }
 
@@ -50,21 +51,23 @@
 
 .footer__two p {
   text-align: center;
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
   font-size: 23.796px;
   font-style: normal;
   font-weight: 500;
   cursor: pointer;
 }
 .email__link {
-  font-size: 26px;
+  font-size: 30px;
   text-decoration: none;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-weight: 400;
   color: white; /* Inherit text color */
 }
 .size-6{
-  width: 26px; /* Adjust size as needed */
-  height: 26px; /* Adjust size as needed */
-  margin-left: 10px; /* Space between the icon and the text */
+  width: 26px; 
+  height: 26px; 
+  margin-left: 10px; 
 
 }
 
@@ -73,7 +76,7 @@
   .footer__content {
     flex-direction: column;
     align-items: flex-start;
-    padding: 50px 30px;
+    padding: 50px 20px;
     gap: 40px;
   }
   .footer__links {
@@ -91,5 +94,14 @@
     margin-top: 8px;
     margin-bottom: 8px;
     font-size: 18px;
+  }
+
+  .footer__logo p {
+    
+    font-size: 18px;
+    
+  }
+  .email__link {
+    font-size: 25px;
   }
 }

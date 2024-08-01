@@ -30,25 +30,25 @@ export const Home = () => {
       question:
         "Can Dopastack help with the digital transformation of a traditional business ?",
       answer:
-        "You can get involved by joining our community and participating in events.",
+        "Absolutely! Our digital transformation services are designed to help traditional businesses modernize their operations, improve efficiency, and enhance customer experiences through the integration of advanced technologies.",
     },
     {
       question: "What is the typical timeline for a project ?",
       answer:
-        "You can get involved by joining our community and participating in events.",
+        "The timeline for a project varies based on its complexity and scope. After an initial consultation, we provide a detailed project plan with estimated timelines. We strive to deliver high-quality solutions in a timely manner.",
     },
 
     {
       question:
         "How does Dopastack support its clients after project completion ?",
       answer:
-        "You can get involved by joining our community and participating in events.",
+        "We offer ongoing support and maintenance services to ensure your solution continues to operate smoothly. Our support packages include regular updates, bug fixes, and technical support to address any issues that may arise.",
     },
 
     {
       question: "Why do I need a tech agency ?",
       answer:
-        "You can get involved by joining our community and participating in events.",
+        "Partnering with a tech agency like dopa-stack provides you with access to a team of experts with diverse skill sets and experience. We offer a wide range of services that can help you leverage the latest technologies, improve operational efficiency, and stay competitive in your industry. By outsourcing your tech needs to us, you can focus on your core business activities while we handle the technical challenges. ",
     },
   ];
 
@@ -294,7 +294,26 @@ export const Home = () => {
             </div>
 
             <div className="offer__con" data-aos="fade-up">
-              <h2>Expert Tech Solutions:</h2>
+              <div className="offer">
+                {/* <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <circle
+                    cx="15"
+                    cy="15"
+                    r="13"
+                    stroke="black"
+                    stroke-opacity="0.36"
+                    stroke-width="4"
+                  />
+                </svg> */}
+                <h2>Expert Tech Solutions:</h2>
+              </div>
+
               <span className="p">
                 Tailored Services:
                 <span className="P__two">

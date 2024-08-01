@@ -118,7 +118,7 @@ export const Contact = () => {
                   </div>
                 </div>
                 <button type="submit" className="form__btn">
-                  <p>Send Message</p>
+                  <p>Send</p>
             
                 </button>
               </form>

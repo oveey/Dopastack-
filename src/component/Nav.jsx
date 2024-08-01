@@ -38,7 +38,7 @@ export const Nav = () => {
 
   return (
     <>
-      <div className="home__nav">
+      <div className="home__nav" data-aos="fade-down">
         <RouterLink to="/">
           <img
             src="https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995203/Dopastack_logo_jw4qjy.png"

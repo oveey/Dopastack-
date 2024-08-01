@@ -21,13 +21,13 @@
   background-size: cover;
   margin-top: 0;
   padding-bottom: 100px;
-
 }
 
 .text {
   font-family: "Nexa Regular", sans-serif;
   color: #000;
-  font-size: 35px;
+  font-size: 50px;
+  text-align: center;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -36,14 +36,14 @@
 }
 
 .text--normal {
-  font-weight: bold;
-  font-size: 35px;
+  font-weight: 900;
+  font-size: 50px;
   font-family: "Nexa Bold", sans-serif;
 }
 
 .header__text {
   font-family: "Nexa Regular", sans-serif;
-  font-size: 85px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 100;
   line-height: normal;
@@ -51,11 +51,10 @@
 }
 .header__text__con p {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Nexa Regular", sans-serif;
   font-weight: 100;
   font-style: normal;
-
 }
 .header__text__con {
   text-align: center;
@@ -81,7 +80,7 @@
   cursor: pointer;
   padding: 20px 120px;
   border: 2px solid rgba(105, 71, 208, 0.5);
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
   transition: background-color 0.3s ease, transform 0.3s ease,
     box-shadow 0.3s ease;
   box-shadow: rgba(105, 71, 208, 0.5) -10px 10px;
@@ -92,7 +91,7 @@
   font-weight: 700;
 }
 .btn:hover {
-  transform: scale(1.05);
+  box-shadow: rgba(105, 71, 208, 0.819) -10px 10px;
 }
 
 .hero_image {
@@ -103,7 +102,7 @@
 }
 
 .hero_image img {
-  width: 200px;
+  width: 250px;
 }
 
 .recent__section {
@@ -178,13 +177,13 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  padding: 100px 60px;
+  padding: 100px 80px;
 }
 
 .work__con h1 {
   color: white;
-  font-family: "Schibsted Grotesk";
-  font-size: 48px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 50px;
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
@@ -203,8 +202,8 @@
   background: rgba(217, 217, 217, 0.19);
   color: white;
   padding: 6px 20px;
-  font-family: "Schibsted Grotesk";
-  font-size: 16px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 24px;
   margin-top: 23px;
 }
 
@@ -216,21 +215,19 @@
   cursor: pointer;
   padding: 20px 140px;
   width: 1000px;
-  border: 1px solid rgba(218, 213, 233, 0.5);
+  border: 1px solid #fff;
   font-family: "Schibsted Grotesk";
   transition: background-color 0.3s ease, transform 0.3s ease,
     box-shadow 0.3s ease;
   box-shadow: rgba(196, 196, 196, 0.412) -5px 7px;
-
   text-align: center;
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
 }
 .btn2 p {
-  font-size: 14.519px;
+  font-size: 19.519px;
   font-family: "Schibsted Grotesk";
 }
 .btn2:hover {
-  transform: scale(1.05);
   box-shadow: rgba(240, 240, 240, 0.831) -20px 10px;
 }
 
@@ -243,12 +240,12 @@
 /*********************************** OFFER SECTION *****************************************************/
 
 .offer__section {
-  padding: 100px 60px;
+  padding: 100px 80px;
 }
 
 .offer__header {
   display: flex;
-  gap: 40px;
+  gap: 300px;
   margin-top: 100px;
   padding-bottom: 100px;
   border-bottom: 2px solid #d9d9d9;
@@ -258,38 +255,54 @@
   border-bottom: none;
 }
 
-.offer__title {
-  width: 52%;
-  font-size: 27px;
-  font-family: "Schibsted Grotesk";
+.offer{
+  display: flex;
+  align-items: center;
 }
 
+.offer__title {
+  width: 30%;
+  font-size: 2.6rem;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+.offer__title h1{
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-weight: 400;
+
+}
+
+
 .p {
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+  color: rgba(0, 0, 0, 0.55);
   font-style: normal;
   font-weight: 700;
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .n__one {
-  display: flex; 
+  display: flex;
   align-items: flex-start;
 }
 .p__one {
-  font-size: 20px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.55);
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
   line-height: 150%; /* 54px */
 }
 
 .P__two {
-  font-size: 20px;
+  font-size: 30px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   color: rgba(0, 0, 0, 0.55);
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
   line-height: 170%; /* 54px */
 }
 
@@ -299,29 +312,31 @@
   width: 60%;
   gap: 40px;
 }
-h2{
-  font-family: "Schibsted Grotesk";
+h2 {
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 40px;
 
 }
 
 h3 {
   font-size: 23px;
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
   color: rgba(0, 0, 0, 0.55);
   font-weight: 200;
   width: 300%;
 }
+
 .number {
   display: inline-flex;
   justify-content: center;
   border-radius: calc(0.8 * 10vw); /* Responsive border radius */
   align-items: center;
-  width: 200px; 
-  height: 60px; 
+  width: 200px;
+  height: 60px;
   border: 2px solid rgba(0, 0, 0, 0.55);
-  font-size: 18px; 
-  margin-right: 26px; 
-  font-family: "Schibsted Grotesk";
+  font-size: 18px;
+  margin-right: 26px;
+  font-family: "Schibsted Grotesk", sans-serif;
   font-weight: 400;
 }
 
@@ -333,39 +348,33 @@ h3 {
   line-height: 28px;
   padding: 0;
   margin-top: 10px;
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
 }
 
 .what__header {
   display: flex;
   justify-content: space-between;
-  gap: 200px;
   align-items: flex-start;
   padding-bottom: 50px;
   border-bottom: 2px solid #d9d9d9;
 }
-
-.faq-item .question {
-  display: flex;
-  text-align: left;
-  max-width: 100%;
-  font-family: "Schibsted Grotesk";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 559;
-  line-height: 140%; /* 50.4px */
+.what-items{
+  width: 100%;
+  max-width: 600px;
 }
+
+
 
 .questions {
   display: flex;
   width: 100%;
-  max-width: 900px;
+  max-width: 700px;
   padding: 30px 0;
   justify-content: space-between;
   text-align: left;
   font-size: 25px;
   gap: 60px;
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
   font-style: normal;
   font-weight: 559;
   line-height: 140%;
@@ -377,14 +386,14 @@ h3 {
 
 .answers {
   text-align: left;
-  font-family: "Schibsted Grotesk";
-  font-size: 18px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 25px;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.55);
   font-size: 25px;
   font-style: normal;
   width: 100%;
-  max-width: 900px;
+  max-width: 700px;
   font-weight: 400;
   padding: 30px 0;
   border-bottom: 2px solid #d9d9d9;
@@ -394,16 +403,16 @@ h3 {
 
 .summary__section {
   padding: 100px 60px;
-  background: #6947D0;
+  background: #6947d0;
 }
 
 .summary__text {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 
 .summary__text p {
   color: #fff;
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -414,11 +423,11 @@ h3 {
 .recent__work h2 {
   display: inline-block;
   color: #fff;
-  font-family: "Schibsted Grotesk";
-  font-size: 70px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 100.391px;
   font-style: normal;
   font-weight: 400;
-  /* letter-spacing: -3.342px; */
+  letter-spacing: -3.342px;
 }
 
 .getintouch {
@@ -428,14 +437,14 @@ h3 {
 }
 
 .get-in-touch-item img {
-  width: 90px;
+  width: 60px;
 }
 
 .get-in-touch-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
   animation: scrollText 5s infinite linear;
   transform: translateX(-50%); /* Center the content */
   white-space: nowrap;
@@ -443,16 +452,16 @@ h3 {
 
 .get-in-touch-item span {
   font-size: 50px;
-  font-family: "Schibsted Grotesk";
+  font-family: "Schibsted Grotesk", sans-serif;
   color: #333;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .getintouch-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 30px;
   border: 2.777px solid rgba(0, 0, 0, 0.2);
   background: #fff;
   padding: 30px;
@@ -472,16 +481,20 @@ h3 {
     font-size: 60px;
     line-height: 60px;
   }
+  .questions{
+    max-width: 100%;
+
+  }
 
   .text--normal {
-    font-size: 20px;
+    font-size: 25px;
   }
   .text {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .header__text__con p {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .header__text__con {
@@ -501,9 +514,11 @@ h3 {
     padding: 50px 20px;
   }
 
+ 
   .work__con {
-    flex-direction: column;
-    gap: 100px;
+    padding-bottom: 50px;
+    gap: 50px;
+
   }
   .offer__section {
     padding: 50px 20px;
@@ -588,9 +603,13 @@ h3 {
   .getintouch-container {
     gap: 30px;
   }
+  .what-items{
+    max-width: 100%;
+  }
 
-  .work__con {
-    padding-bottom: 50px;
+  
+  h2{
+    font-size: 20px;
   }
   .faq-section {
     padding: 50px 30px;
@@ -602,149 +621,22 @@ h3 {
     width: 100px;
     height: 40px;
   }
-}
 
-@media (max-width: 768px) {
-  .header__text {
-    font-size: 60px;
-    line-height: 60px;
+  .offer__title h1{
+    font-size: 30px;
   }
-
-  .text--normal {
-    font-size: 20px;
+  .work__con h1{
+    font-size: 30px;
   }
-  .text {
-    font-size: 20px;
-  }
-
-  .header__text__con p {
-    font-size: 20px;
-  }
-
-  .header__text__con {
-    padding: 100px 40px;
-  }
-  .hero_image img {
-    width: 200px;
-  }
-
-  .recent__work h2 {
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-  }
-
-  .work__section {
-    padding: 50px 20px;
-  }
-
-  .work__con {
-    flex-direction: column;
-    gap: 100px;
-  }
-  .offer__section {
-    padding: 50px 20px;
-  }
-
-  .offer__header {
-    flex-direction: column;
-    margin-top: 50px;
-    gap: 40px;
-  }
-
-  .what__header {
-    flex-direction: column;
-    gap: 30px;
-  }
-  .offer__title {
-    /* font-size: 30px; */
-    width: 100%;
-  }
-  .p__one {
-    font-size: 16px;
-  }
-
-  .p {
+  .under_text p{
     font-size: 18px;
-  }
-
-  .P__two {
-    font-size: 16px;
-  }
-
-  /* .what-item{
-    padding: 10px;
-  } */
-
-  .faq-item .question {
-    font-size: 18px;
-  }
-
-  .faq-item .answer {
-    font-size: 18px;
-  }
-
-  .questions {
-    font-size: 18px;
-    padding: 10px;
-    gap: 30px;
-  }
-  .summary__section {
-    padding: 50px 20px;
-  }
-  .summary__text {
-    padding: 30px 0;
-  }
-  .summary__text p {
-    font-size: 28px;
-    line-height: 124%;
-  }
-  .get-in-touch-item span {
-    font-size: 28px;
-  }
-  .get-in-touch-item img {
-    width: 30px;
-  }
-  .work__img {
-    width: 100%;
-  }
-
-  .work__img img {
-    width: 100%;
-  }
-
-  .btn {
-    margin-top: 30px;
-    text-align: center;
-    color: #fff;
-    font-style: normal;
-    background: #6947d0;
-    padding: 20px 80px;
-  }
-
-  .btn2 p {
-    font-size: 14px;
-    font-weight: 700;
-  }
-  .btn2 {
-    width: 600px;
-  }
-
-  .getintouch-container {
-    gap: 30px;
-  }
-
-  .work__con {
-    padding-bottom: 50px;
-  }
-
-  .answers {
-    padding: 30px 10px;
-    
   }
 }
 
-@media (max-width: 480px) {
+
+
+
+@media (max-width: 780px) {
   .header__text {
     font-size: 60px;
     line-height: 60px;
@@ -779,9 +671,15 @@ h3 {
     padding: 50px 20px;
   }
 
-  .work__con {
-    flex-direction: column;
-    gap: 100px;
+ 
+  .work__con h1 {
+  
+    font-size: 30px;
+   
+  }
+  .under_text p{
+    font-size: 14px;
+
   }
   .offer__section {
     padding: 50px 20px;
@@ -818,20 +716,20 @@ h3 {
     padding: 10px;
     gap: 30px;
   }
-  .answers{
-    font-size: 18px;
-
-
+  .answers {
+    font-size: 16px;
+    padding: 30px 10px;
   }
   .summary__section {
-    padding: 90px 20px;
+    padding: 40px 20px;
   }
   .summary__text {
     padding: 30px 0;
   }
   .summary__text p {
-    font-size: 23px;
-    line-height: 124%;
+    font-size: 16px;
+    line-height: 124.061%; /* 19.85px */
+
   }
   .get-in-touch-item span {
     font-size: 28px;
@@ -869,19 +767,30 @@ h3 {
   }
 
   .btn2 {
-    padding: 30px 0;
+    padding: 20px 0;
     width: 300px;
   }
+
+  .btn2 p{
+    font-size: 13px;
+    padding: 5px 0;
+    width: 300px;
+  }
+
 
   .offer__title {
     font-size: 20px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .number {
-    width: 200px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+  h2{
+    font-size: 24px;
   }
 }

@@ -5,10 +5,11 @@ import "../styles/home.css";
 import { Contact } from "../component/Contact";
 import { Footer } from "../component/Footer";
 import AOS from "aos";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import "aos/dist/aos.css";
 import axios from "axios";
 import "../styles/faq.css";
-import Faq from "../component/Faq"; 
+import Faq from "../component/Faq";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
@@ -91,12 +92,7 @@ export const Home = () => {
     } catch (error) {
       console.error(error);
     }
-
   };
-
- 
-
- 
 
   const formRef = useRef(null);
 
@@ -137,7 +133,11 @@ export const Home = () => {
       <section className="header__section" id="home">
         <div className="header__inner__con">
           <Nav />
-          <div className="header__text__con" data-aos="fade-up" data-aos-duration="3000">
+          <div
+            className="header__text__con"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <h1 className="header__text">BRIDGING THE GAP</h1>
             <p>BETWEEN BUSINESS PROBLEMS</p>
             <span className="text">
@@ -155,7 +155,13 @@ export const Home = () => {
               <div>
                 <div className="btn-border"></div>
                 <div className="btn">
-                  <p>GET IN TOUCH</p>
+                  <p>
+                    {" "}
+                    <ScrollLink to="contact" smooth={true} duration={500}>
+                      {" "}
+                      GET IN TOUCH{" "}
+                    </ScrollLink>
+                  </p>
                 </div>
               </div>
             </div>
@@ -163,7 +169,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="recent__section"id="projects">
+      <section className="recent__section" id="projects">
         <div className="recent__work">
           <h2>RECENT WORKS </h2>
           <h2>•</h2>
@@ -498,7 +504,8 @@ export const Home = () => {
               <div className="n__one">
                 <span className="number">02</span>
                 <h3>
-                Scalable Model. Our business model is scalable, allowing for growth and expansion into new markets and service areas.
+                  Scalable Model. Our business model is scalable, allowing for
+                  growth and expansion into new markets and service areas.
                 </h3>
               </div>
 

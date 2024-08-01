@@ -138,7 +138,7 @@ export const Footer = () => {
           </div>
         </div>
       </section>
-      <div className="footer__section2" id="home">
+      <div className="footer__section2">
         <div className="footer__two">
           <p>
             <ScrollLink

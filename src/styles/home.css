@@ -315,6 +315,10 @@
 h2 {
   font-family: "Schibsted Grotesk", sans-serif;
   font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+
+
 
 }
 
@@ -727,7 +731,7 @@ h3 {
     padding: 30px 0;
   }
   .summary__text p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 124.061%; /* 19.85px */
 
   }
@@ -764,6 +768,7 @@ h3 {
 
   .work__con {
     padding-bottom: 50px;
+    flex-direction: column;
   }
 
   .btn2 {
@@ -791,6 +796,6 @@ h3 {
     font-size: 12px;
   }
   h2{
-    font-size: 24px;
+    font-size: 20px;
   }
 }

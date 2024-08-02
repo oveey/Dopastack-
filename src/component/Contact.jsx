@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 
-export const Contact = ({activeIndex, index }) => {
+export const Contact = () => {
   const [name, setName] = useState("");
   const [service, setService] = useState("");
   const [projectInfo, setProjectInfo] = useState("");
@@ -86,12 +86,7 @@ export const Contact = ({activeIndex, index }) => {
                         value={service}
                         onChange={(e) => setService(e.target.value)}
                       />
-                      <FontAwesomeIcon
-                        icon={
-                          activeIndex === index ?faChevronDown  : faChevronUp
-                        }
-                        className="icon"
-                      />
+                       
                     </div>
                   </div>
                 </div>

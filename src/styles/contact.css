@@ -51,13 +51,13 @@
 .form__container form input {
   height: 50px;
   width: 100%;
-  padding: 10px;
+  padding: 30px;
   outline: none;
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 1 px solid white;
-  background-color: rgba(254, 254, 254, 0);
+  border-bottom: none;
+  background-color: rgba(36, 36, 36, 0.911);
   font-family: "Schibsted Grotesk", sans-serif;
   color: #e7e7e7;
   font-size: 25px;
@@ -91,6 +91,12 @@
   display: flex;
   align-items: center;
 }
+
+.name__form label {
+  display: block; /* Ensures label takes up the full width of the container */
+}
+
+
 
 .input__wrapper input {
   flex: 1; /* Makes input take available space */
@@ -147,7 +153,6 @@
   }
   .contact__header h1 {
     font-size: 30px;
-    padding-bottom: 50px;
   }
 
   .contact__section {

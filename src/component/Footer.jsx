@@ -50,12 +50,12 @@ export const Footer = () => {
               <p>Call or message us</p>
               
               <a
-                href="mailto:dopastack@gmail.com"
+                  href="tel:+2347042674358"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995204/SEND_vbzis7.png"
+                  src="https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995203/PHONE_pjod42.png"
                   alt=""
                 />
               </a>
@@ -105,18 +105,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995204/FACEBOOK_howetp.png"
-                  alt=""
-                />
-              </a>
-
-              <a
-                href="https://www.tiktok.com"
+                href="https://www.tiktok.com/@dopastack?_t=8oXJw8ErCq6&_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
               >

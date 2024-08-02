@@ -48,18 +48,9 @@ export const Footer = () => {
 
             <div className="footer__logo" data-aos="fade-up">
               <p>Call or message us</p>
+              
               <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995203/PHONE_pjod42.png"
-                  alt=""
-                />
-              </a>
-              <a
-                href="https://www.instagram.com"
+                href="mailto:dopastack@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -69,7 +60,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://wa.me/2347042674358/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -83,7 +74,7 @@ export const Footer = () => {
             <div className="footer__logo" data-aos="fade-up">
               <p>Socials</p>
               <a
-                href="https://www.facebook.com"
+                href="https://x.com/dopastack"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -93,7 +84,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.twitter.com"
+                href="https://www.linkden.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -103,7 +94,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/dopastack/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -114,7 +105,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://www.instagram.com"
+                href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -125,7 +116,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://www.instagram.com"
+                href="https://www.tiktok.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

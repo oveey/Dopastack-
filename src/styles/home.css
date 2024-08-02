@@ -26,7 +26,7 @@
 .text {
   font-family: "Nexa Regular", sans-serif;
   color: #000;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   font-style: normal;
   font-weight: 900;
@@ -37,7 +37,7 @@
 
 .text--normal {
   font-weight: 900;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Nexa Bold", sans-serif;
 }
 
@@ -49,9 +49,10 @@
   line-height: normal;
   text-transform: uppercase;
 }
+
 .header__text__con p {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Nexa Regular", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -157,7 +158,6 @@
 
 .work__img img:hover {
   box-shadow: rgba(240, 240, 240, 0.443) -20px 20px;
-  transform: scale(1.05);
 }
 
 .work__con {
@@ -247,7 +247,7 @@
   display: flex;
   gap: 300px;
   margin-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   border-bottom: 2px solid #d9d9d9;
 }
 
@@ -312,13 +312,12 @@
   width: 60%;
   gap: 40px;
 }
+
 h2 {
   font-family: "Schibsted Grotesk", sans-serif;
   font-size: 40px;
   font-weight: 500;
   font-style: normal;
-
-
 
 }
 

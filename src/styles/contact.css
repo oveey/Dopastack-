@@ -87,6 +87,23 @@
   box-shadow: rgb(200, 200, 200) -10px 10px;
 }
 
+.input__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input__wrapper input {
+  flex: 1; /* Makes input take available space */
+}
+
+.icon {
+  position: relative;
+  bottom: 15px;
+  margin-right: 1px; /* Space between input and icon */
+  cursor: pointer; 
+}
+
+
 @media (max-width: 950px) {
   .contact {
     padding: 50px 20px;

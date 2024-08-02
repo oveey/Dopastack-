@@ -133,35 +133,35 @@ export const Home = () => {
       <section className="header__section" id="home">
         <div className="header__inner__con">
           <Nav />
-          <div
-            className="header__text__con"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <h1 className="header__text">BRIDGING THE GAP</h1>
-            <p>BETWEEN BUSINESS PROBLEMS</p>
-            <span className="text">
-              AND
-              <span className="text--normal"> CREATIVE SOLUTIONS</span>
-            </span>
-
-            <div className="hero_image">
-              <img
-                src="https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995204/Group_2_lioxvv.png"
-                alt=""
-              />
+          <div className="header__text__con">
+            <div className="/" data-aos="zoom-in-down" data-aos-duration="3000">
+              <h1 className="header__text">BRIDGING THE GAP</h1>
+              <p>BETWEEN BUSINESS PROBLEMS</p>
+              <span className="text">
+                AND
+                <span className="text--normal"> CREATIVE SOLUTIONS</span>
+              </span>
             </div>
-            <div className="btn-container ">
-              <div>
-                <div className="btn-border"></div>
-                <div className="btn">
-                  <p>
-                    {" "}
-                    <ScrollLink to="contact" smooth={true} duration={500}>
+
+            <div className="/" data-aos="fade-up" data-aos-duration="3000">
+              <div className="hero_image">
+                <img
+                  src="https://res.cloudinary.com/dwrkgmmsz/image/upload/v1721995204/Group_2_lioxvv.png"
+                  alt=""
+                />
+              </div>
+              <div className="btn-container ">
+                <div>
+                  <div className="btn-border"></div>
+                  <div className="btn">
+                    <p>
                       {" "}
-                      GET IN TOUCH{" "}
-                    </ScrollLink>
-                  </p>
+                      <ScrollLink to="contact" smooth={true} duration={500}>
+                        {" "}
+                        GET IN TOUCH{" "}
+                      </ScrollLink>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -343,32 +343,9 @@ export const Home = () => {
                   process.
                 </span>
               </span>
+              <br></br>
 
-              {/* <span className="p__one">
-                Talent Matching:
-                <span className="P__two">
-                  {" "}
-                  Whether you need a temporary consultant or a full-time
-                  employee, Dopastack provides suitable candidates to fill your
-                  job openings, saving you time and resources in the hiring
-                  process.
-                </span>
-              </span> */}
-            </div>
-          </div>
-
-          <div className="offer__header last__border">
-            <div
-              className="offer__title"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              {/* <h1>What We Offer:</h1> */}
-            </div>
-
-            <div className="offer__con last__border" data-aos="fade-up">
               <h2>Enhanced Efficacy</h2>
-
               <span className="p">
                 On-Demand Support:
                 <span className="P__two">

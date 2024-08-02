@@ -3,14 +3,17 @@ import { Nav } from "./Nav";
 import "../styles/contact.css";
 import { Footer } from "./Footer";
 import axios from "axios";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
-export const Contact = () => {
+
+export const Contact = ({activeIndex, index }) => {
   const [name, setName] = useState("");
-  const [lastName, setLastName] = useState("");
+  const [service, setService] = useState("");
+  const [projectInfo, setProjectInfo] = useState("");
   const [email, setEmail] = useState("");
-  const [address, setAddress] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [message, setMessage] = useState("");
+  const [budget, setBudget] = useState("");
+  const [message, setMessage] = useState(""); // Add this line
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -28,7 +31,7 @@ export const Contact = () => {
       template_params: {
         from_name: name,
         from_email: email,
-        to_name: "ovgraphic1@gmail.com",
+        to_name: "ovgraphic1@gmail.com", // Recipient email
         message: message,
       },
     };
@@ -41,10 +44,10 @@ export const Contact = () => {
       );
       console.log(res.data);
       setName("");
-      setLastName("");
+      setService("");
+      setProjectInfo("");
       setEmail("");
-      setAddress("");
-      setPhoneNumber("");
+      setBudget("");
       setMessage("");
     } catch (error) {
       console.error(error);
@@ -62,12 +65,12 @@ export const Contact = () => {
           <div className="form__container">
             <div className="form__main" data-aos="fade-up">
               <form onSubmit={handleSubmit}>
-                <div className="input__con" >
+                <div className="input__con">
                   <div className="name__form">
-                    <label htmlFor="fname">Name</label> <br />
+                    <label htmlFor="name">Name</label> <br />
                     <input
                       type="text"
-                      id="fname"
+                      id="name"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
                     />
@@ -75,51 +78,59 @@ export const Contact = () => {
                 </div>
                 <div className="input__con">
                   <div className="name__form">
-                    <label htmlFor="num">Service</label> <br />
+                    <label htmlFor="service">Service</label> <br />
+                    <div className="input__wrapper">
+                      <input
+                        type="text"
+                        id="service"
+                        value={service}
+                        onChange={(e) => setService(e.target.value)}
+                      />
+                      <FontAwesomeIcon
+                        icon={
+                          activeIndex === index ?faChevronDown  : faChevronUp
+                        }
+                        className="icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="input__con">
+                  <div className="name__form">
+                    <label htmlFor="projectInfo">Project Info</label> <br />
                     <input
                       type="text"
-                      id="num"
-                      value={phoneNumber}
-                      onChange={(e) => setPhoneNumber(e.target.value)}
+                      id="projectInfo"
+                      value={projectInfo}
+                      onChange={(e) => setProjectInfo(e.target.value)}
                     />
                   </div>
                 </div>
                 <div className="input__con">
                   <div className="name__form">
-                    <label htmlFor="num">Project Info</label> <br />
+                    <label htmlFor="email">Email</label> <br />
                     <input
-                      type="text"
-                      id="num"
-                      value={phoneNumber}
-                      onChange={(e) => setPhoneNumber(e.target.value)}
+                      type="email"
+                      id="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                 </div>
                 <div className="input__con">
                   <div className="name__form">
-                    <label htmlFor="num">Email</label> <br />
+                    <label htmlFor="budget">Budget</label> <br />
                     <input
                       type="text"
-                      id="num"
-                      value={phoneNumber}
-                      onChange={(e) => setPhoneNumber(e.target.value)}
-                    />
-                  </div>
-                </div>
-                <div className="input__con">
-                  <div className="name__form">
-                    <label htmlFor="num">Budget</label> <br />
-                    <input
-                      type="text"
-                      id="num"
-                      value={phoneNumber}
-                      onChange={(e) => setPhoneNumber(e.target.value)}
+                      id="budget"
+                      value={budget}
+                      onChange={(e) => setBudget(e.target.value)}
                     />
                   </div>
                 </div>
                 <button type="submit" className="form__btn">
                   <p>Send</p>
-            
                 </button>
               </form>
             </div>

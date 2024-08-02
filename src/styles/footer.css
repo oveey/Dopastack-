@@ -33,6 +33,7 @@
   background: #6947d0;
   color: #fff;
   width: 100%;
+  cursor: pointer;
 }
 
 .footer__two {
@@ -55,7 +56,6 @@
   font-size: 23.796px;
   font-style: normal;
   font-weight: 500;
-  cursor: pointer;
 }
 .email__link {
   font-size: 30px;

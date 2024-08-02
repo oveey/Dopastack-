@@ -31,7 +31,7 @@ export const Contact = () => {
       template_params: {
         from_name: name,
         from_email: email,
-        to_name: "ovgraphic1@gmail.com", // Recipient email
+        to_name: "dopastack@gmail.com", // Recipient email
         message: message,
       },
     };

@@ -150,19 +150,16 @@ export const Home = () => {
                   alt=""
                 />
               </div>
+
               <div className="btn-container ">
-                <div>
-                  <div className="btn-border"></div>
-                  <div className="btn">
-                    <p>
+                <ScrollLink to="contact" smooth={true} duration={500}>
+                  <div>
+                    <div className="btn">
                       {" "}
-                      <ScrollLink to="contact" smooth={true} duration={500}>
-                        {" "}
-                        GET IN TOUCH{" "}
-                      </ScrollLink>
-                    </p>
+                      <p>GET IN TOUCH </p>
+                    </div>
                   </div>
-                </div>
+                </ScrollLink>
               </div>
             </div>
           </div>

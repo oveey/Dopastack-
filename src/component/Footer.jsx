@@ -48,9 +48,8 @@ export const Footer = () => {
 
             <div className="footer__logo" data-aos="fade-up">
               <p>Call or message us</p>
-              
               <a
-                  href="tel:+2347042674358"
+                href="tel:+2347042674358"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -119,15 +118,11 @@ export const Footer = () => {
         </div>
       </section>
       <div className="footer__section2">
-        <div className="footer__two">
-          <p>
-            <ScrollLink
-              to="home"
-              smooth={true}
-              duration={500}
-            >Back to Top</ScrollLink>
-          </p>
-        </div>
+        <ScrollLink to="home" smooth={true} duration={500}>
+          <div className="footer__two">
+            <p>Back to Top</p>
+          </div>
+        </ScrollLink>
       </div>
     </>
   );

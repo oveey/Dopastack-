@@ -13,14 +13,13 @@ export const Contact = () => {
   const [projectInfo, setProjectInfo] = useState("");
   const [email, setEmail] = useState("");
   const [budget, setBudget] = useState("");
-  const [message, setMessage] = useState(""); // Add this line
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     // Your EmailJS service ID, template ID, and Public Key
-    const serviceId = "service_rue705e";
-    const templateId = "template_f6obubi";
+    const serviceId = "service_ycnp4hh";
+    const templateId = "template_nyndi2d";
     const publicKey = "3aqOKs-aknVY0-1-8";
 
     // Create an object with EmailJS service ID, template ID, Public Key, and Template params
@@ -31,8 +30,11 @@ export const Contact = () => {
       template_params: {
         from_name: name,
         from_email: email,
-        to_name: "dopastack@gmail.com", // Recipient email
-        message: message,
+        service: service,
+        project_info: projectInfo,
+        email: email,
+        budget: budget,
+        to_name: "Team Dopastack", 
       },
     };
 
@@ -48,7 +50,6 @@ export const Contact = () => {
       setProjectInfo("");
       setEmail("");
       setBudget("");
-      setMessage("");
     } catch (error) {
       console.error(error);
     }

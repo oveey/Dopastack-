@@ -78,7 +78,7 @@ const Faq = () => {
   ];
 
   return (
-    <div className="faq-section" id="faq">
+    <div className="faq-section" id="service">
       <div className="faq" data-aos="fade-up">
         <h1>Our Service Include</h1>
       </div>

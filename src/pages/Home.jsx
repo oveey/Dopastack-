@@ -444,7 +444,7 @@ export const Home = () => {
 
       <Faq />
 
-      <section className="offer__section" id="service">
+      <section className="offer__section" id="faq">
         <div className="offer__inner__con">
           <div className="what__header">
             <div

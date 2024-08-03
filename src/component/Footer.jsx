@@ -83,7 +83,7 @@ export const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.linkden.com"
+                href="https://www.linkedin.com/company/dopastack/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

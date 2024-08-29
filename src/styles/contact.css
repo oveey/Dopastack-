@@ -1,0 +1,174 @@
+.contact {
+  background-color: black;
+  color: #e7e7e7;
+  padding: 100px 60px;
+}
+
+.contact__section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  border-bottom: 2px solid rgba(217, 217, 217, 0.2);
+}
+.contact__header h1 {
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.input__con {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Schibsted Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.name__form {
+  width: 100%;
+  padding-bottom: 10px;
+
+}
+.form-section {
+  margin-bottom: 200px;
+}
+
+.form__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.form__container form {
+  width: 40vw;
+}
+
+.form__container form input {
+  height: 50px;
+  width: 100%;
+  padding: 30px;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  background-color: rgba(36, 36, 36, 0.911);
+  font-family: "Schibsted Grotesk", sans-serif;
+  color: #e7e7e7;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.form__btn {
+  background: #ffffff;
+  width: 100%;
+  font-family: "Schibsted Grotesk";
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  box-shadow: rgba(136, 136, 136, 0.5) -10px 10px;
+}
+
+.form__btn:hover {
+  box-shadow: rgb(200, 200, 200) -10px 10px;
+}
+
+.input__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.name__form label {
+  display: block; /* Ensures label takes up the full width of the container */
+}
+
+
+
+.input__wrapper input {
+  flex: 1; /* Makes input take available space */
+}
+
+.icon {
+  position: relative;
+  bottom: 15px;
+  margin-right: 1px; /* Space between input and icon */
+  cursor: pointer; 
+}
+
+
+@media (max-width: 950px) {
+  .contact {
+    padding: 50px 20px;
+  }
+  .form__container {
+    flex-direction: column;
+  }
+  /* .form__main {
+      width: 100%;
+    } */
+
+  .social__info {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .contact__header__text__con {
+    width: 70%;
+  }
+
+  .form__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .social__info__con {
+    width: 100%;
+    max-width: 600px;
+  }
+  .form__container form {
+    width: 100%;
+  }
+
+  .contact__section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 50px 20px;
+  }
+  .contact__header h1 {
+    font-size: 30px;
+  }
+
+  .contact__section {
+    flex-direction: column;
+  }
+
+  .contact__header__text__con {
+    width: 100%;
+  }
+
+  .form__container form {
+    width: 100%;
+  }
+
+  .input__con {
+    font-size: 15px;
+    
+  }
+}

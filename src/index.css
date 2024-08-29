@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: "Nexa";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+
+* {
+  padding: 0 ;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Nexa light";
+  src: url("/src/assets/Nexa/Nexa.ttf") format("truetype"); /* Fallback */
+  font-weight: normal; /* Adjust if necessary */
+  font-style: normal; /* Adjust if necessary */
+}
+
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("/src/assets/Nexa/Nexa-Heavy.ttf") format("truetype"); /* Modern browsers */
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+

@@ -1,0 +1,196 @@
+.home__nav img {
+  width: 200px;
+}
+.logo__con img {
+  width: 100%;
+}
+
+.home__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  cursor: pointer;
+  top: 0;
+  width: 100%;
+  padding: 20px 40px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.232); /* White background with some transparency */
+  border-bottom: 2px solid rgba(215, 215, 215, 0.467);
+  backdrop-filter: blur(10px); /* Apply blur effect to the background */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+
+.home__nav ul {
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 550;
+  font-family: "Schibsted Grotesk";
+}
+
+.nav_link {
+  color: rgba(0, 0, 0, 0.85);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav_link:hover {
+  transform: scale(1.1);
+  color: var(--Gulf-Blue-950, #001a52);
+}
+
+.home__nav button {
+  border: none;
+  z-index: 2000;
+  position: relative;
+  transition: 0.3s;
+  display: none;
+  /* display: block; */
+  /* border: none; */
+  /* z-index: 2000; */
+  position: relative;
+  transition: 0.3s;
+}
+
+
+
+@media (max-width: 900px) {
+  .link {
+    color: var(--Gulf-Blue-50, #e9f7ff);
+    cursor: pointer;
+  }
+
+  .home__nav {
+    padding: 20px 15px;
+  }
+
+  .home__nav a {
+    color: #0e0d0d;
+    z-index: 2000;
+    font-size: 30px;
+    font-family: "Schibsted Grotesk";
+    font-weight: 400;
+
+  }
+
+  .home__nav ul li a:not(.active) {
+    opacity: 0.5;
+  }
+
+
+  .home__nav button {
+    position: relative;
+    /* display: none; */
+    display: block;
+    border: none;
+    z-index: 2000;
+    transition: 0.3s;
+    background: inherit;
+  }
+
+  .home__nav button span {
+    height: 5px;
+    width: 40px;
+    display: block;
+    z-index: 1000;
+    transform-origin: center;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .line {
+    background-color: #000000; /* Line color */
+    height: 2px; /* Line thickness */
+    width: 30px; /* Default width for lines */
+    margin: 4px 0; /* Space between lines */
+  }
+
+  .top {
+    width: 30px; /* Top line width */
+  }
+
+  .middle {
+    width: 15px; /* Middle line width */
+  }
+
+  .bottom {
+    width: 30px; /* Bottom line width */
+  }
+
+  .open {
+    /* display: flex !important; */
+    pointer-events: unset !important;
+    opacity: 1 !important;
+    font-size: 10px;
+  }
+  .home__nav button span:nth-child(1) {
+    margin-bottom: 5px;
+  }
+
+  .home__nav button span:nth-child(2) {
+    width: 30px;
+    position: relative;
+    left: 20%; /* Center horizontally */
+  }
+
+ 
+
+  .open .colors {
+    transform: translateY(0%) !important;
+  }
+  .home__nav li {
+    opacity: 0;
+    transition: 0.15s;
+    padding: 0;
+  }
+  .open li {
+    opacity: 1;
+    transition-delay: 0.1s;
+  }
+
+  .home__nav img {
+    width: 200px;
+  }
+
+  .logo__con img {
+    width: 100%;
+  }
+
+  .home__nav ul li a:not(.active) {
+  }
+
+  .home__nav ul li {
+    padding: 5px 30px;
+    gap: 100px;
+  }
+
+
+  body.menu-open {
+    overflow: hidden; /* Disable vertical scrolling on body */
+  }
+
+  .home__nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Adjusted to align items at the top */
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    width: 300px; /* Adjust width as needed */
+    height: 100vh; /* Full height or adjust as needed */
+    background: rgb(236, 236, 236);
+    top: 0;
+    right: 0; /* Aligns the menu to the right edge */
+    overflow: hidden; /* Allows scrolling if content overflows */
+    flex-direction: column;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for both transform and opacity */
+    z-index: 2000;
+  }
+
+
+
+  
+  
+  
+  
+}
